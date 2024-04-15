@@ -24,10 +24,12 @@ import { ViewTransitions } from 'astro:transitions';
   >
 
   <body>
-    <Header />
-    <h1>{pageTitle}</h1>
-    <slot />
-    <Footer />
+    <main transition:animate="slide">
+      <Header />
+      <h1>{pageTitle}</h1>
+      <slot />
+      <Footer />
+    </main>
     <script>
       import '../scripts/menu.js';
     </script>
