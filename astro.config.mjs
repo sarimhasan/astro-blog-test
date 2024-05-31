@@ -4,6 +4,6 @@ import preact from '@astrojs/preact';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-test-sarim.netlify.app',
+  site: 'https://www.astro-test-sarim.netlify.app',
   integrations: [preact()],
 });
